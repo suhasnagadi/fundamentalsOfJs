@@ -1,0 +1,1 @@
+new Repo for fundamentals of JS
