@@ -35,3 +35,10 @@ console.log(a);
 /* var and let are almost same 
 var is function scoped and 
 let is block scoped */
+
+undeclaredVariable = 5;
+
+console.log(undeclaredVariable);
+
+/* this is also possible but should be avoided 
+because js will create a property on the global object */
