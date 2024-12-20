@@ -27,3 +27,17 @@ console.log(sampleString);
 let sampleTemplateLiteral = `The name is ${firstName} ${lastName} and the age is ${currentYear-birthYear}`;
 
 console.log(sampleTemplateLiteral);
+
+/**
+ * Multiline Strings
+ */
+
+let multilineString = 'This is a \n\
+multiline string';
+
+console.log(multilineString);
+
+let multilineTemplateLiteral = `This is a
+multiline templete literal`;
+
+console.log(multilineTemplateLiteral);
