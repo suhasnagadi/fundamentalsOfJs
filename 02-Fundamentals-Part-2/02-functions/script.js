@@ -1,4 +1,7 @@
 
+/**
+ * This is Function Declaration
+*/
 function isPrime(inputNumber){
 
     for(let i=inputNumber;i>=0;i++){
@@ -56,6 +59,12 @@ let limit = Number(prompt(`Enter the Limit till you want the prime number`));
 
 alert(primeNumberTill(limit));
 
+/**
+ * This is a Function Expression
+ * @param {*} n 
+ * @returns 
+ */
+
 const nthPrimeNumber = function (n){
 
     let primeArray = [];
@@ -89,3 +98,30 @@ let nOfNthPrime = Number(prompt(`Enter the nth number of which prime is expected
 
 alert(nthPrimeNumber(nOfNthPrime));
 
+/**
+ * This is an arrow function
+ * @param {*} inputArray 
+ * @returns 
+ */
+
+const bubbleSortDesc = (inputArray) =>{
+
+    for(let i=0;i<inputArray.length;i++){
+
+        for (j=1;j<inputArray.length-i;j++){
+
+            if(inputArray[j]>inputArray[j-1]){
+
+                let temp = inputArray[j];
+
+                inputArray[j] = inputArray[j-1];
+
+                inputArray[j-1] = temp;
+            }
+        }
+    }
+
+    return inputArray;
+}
+
+console.log(bubbleSortDesc([1,2,3,4,5]));
