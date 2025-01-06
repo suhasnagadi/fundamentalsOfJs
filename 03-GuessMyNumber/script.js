@@ -59,7 +59,13 @@ document.querySelector('.btn.check').addEventListener('click', function(){
     /**
      * This is an async logging dont know what is the use
      */
-    actualLog(inputElement.value);    
+    actualLog(inputElement.value);   
+    
+    const guess = Number(inputElement.value);
+
+    if(!guess){
+        document.querySelector('.message').textContent = 'No Number!!!'
+    }
 });
 
 const logger = (async (something)=>{
