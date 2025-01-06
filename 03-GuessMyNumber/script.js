@@ -70,6 +70,9 @@ document.querySelector('.btn.check').addEventListener('click', function(){
     // some other change
 
     // one more comment
+
+    //  to fix the issues
+    
 });
 
 const logger = (async (something)=>{
