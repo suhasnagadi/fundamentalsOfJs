@@ -68,6 +68,8 @@ document.querySelector('.btn.check').addEventListener('click', function(){
     }
 
     // some other change
+
+    // one more comment
 });
 
 const logger = (async (something)=>{
