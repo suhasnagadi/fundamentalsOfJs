@@ -66,6 +66,8 @@ document.querySelector('.btn.check').addEventListener('click', function(){
     if(!guess){
         document.querySelector('.message').textContent = 'No Number!!!'
     }
+
+    // some other change
 });
 
 const logger = (async (something)=>{
